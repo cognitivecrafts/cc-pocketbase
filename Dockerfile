@@ -8,4 +8,4 @@ RUN chmod +x /app/pocketbase
 
 EXPOSE 8085
 
-CMD ["./pocketbase", "serve", "--http=0.0.0.0:8080"]
+CMD ["./pocketbase", "serve", "--http=0.0.0.0:8085"]
